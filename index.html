@@ -7,6 +7,30 @@
 
     <style>
 
+      :root {
+      --header-height: 4rem;
+      --footer-height: 3rem;
+      --Nero: #FFFFFF;
+      --Cod-Gray: #151515;
+      --Sepia-Skin:#9C6C3B;
+      --Linen: #FCF2EB;
+
+      --fltlogo-mountains-color: #2D322F;
+      --fltlogo-chinook-cloud-color: #CCDDE2;
+      --fltlogo-upper-foothills-color: #4E5027;
+      --fltlogo-lower-foothills-color: #959C45;
+      --fltlogo-pondsky-color: #6E9FAF;
+      --fltlogo-plant-color: #FFFFFF;
+      }
+
+      *,
+      *::before,
+      *::after {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+      }
+
       nav ul {
         display: flex;
         flex-wrap: wrap;
@@ -17,6 +41,11 @@
       
       nav li {
         cursor: pointer;
+      }
+
+      a, a:link, a:visited, a:active {
+        color: var(--Cod-Gray);
+        text-transform: uppercase;
       }
       
     </style>
